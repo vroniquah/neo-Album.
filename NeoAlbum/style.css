@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: url(images/nctencabezado.png) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    text-align: left;
+}
+.header-text{
+    padding: 20px 30px;
+    color: greenyellow;
+}
+.header h1{
+    font-size: 2rem;
+}
+.header h2{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+.main{
+    display: flex;
+    margin-left: 50px;
+}
+.image-con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.images{
+    width: 350px;
+}
+footer{
+    width: 100%;
+    background: greenyellow;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+footer text{
+    color: black;
+}
